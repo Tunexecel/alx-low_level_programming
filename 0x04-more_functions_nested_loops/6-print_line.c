@@ -7,8 +7,8 @@
  */
 void print_line(int n)
 {
-
 int co;
+
 if (n <= 0)
 {
 _putchar('\n');
