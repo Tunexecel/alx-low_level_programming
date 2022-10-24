@@ -22,4 +22,3 @@ _putchar(str[index]);
 
 _putchar('\n');
 }
-Footer
