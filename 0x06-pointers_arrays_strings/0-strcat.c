@@ -24,7 +24,7 @@ for (b = 0; src[b] != 0; b++)
 dest[x] = src[b];
 x++;
 }
-dest[x] = '\0';
 
+dest[x] = '\0';
 return (dest);
 }
