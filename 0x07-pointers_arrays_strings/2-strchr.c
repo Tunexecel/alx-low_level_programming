@@ -9,15 +9,18 @@
  * Return: a pointer to the char or NULL
  *
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strchr(char *s, char c)
 {
-char *ptr = dest;
-
-while (n-- > 0)
+if (s == NULL)
+return (NULL);
+for (; *s; s++)
 {
-*dest = *src;
-dest++;
-src++;
+if (*s == c)
+return (s);
 }
-return (ptr);
+if (*s == c)
+{
+return (s);
+}
+return (NULL);
 }
